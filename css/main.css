@@ -1,0 +1,113 @@
+/* mulish-regular - latin */
+@font-face {
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 400;
+  src: local(''),
+    url('../fonts/mulish-v12-latin-regular.woff2') format('woff2'),
+    /* Chrome 26+, Opera 23+, Firefox 39+ */
+    url('../fonts/mulish-v12-latin-regular.woff') format('woff');
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* mulish-600 - latin */
+@font-face {
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 600;
+  src: local(''),
+    url('../fonts/mulish-v12-latin-600.woff2') format('woff2'),
+    /* Chrome 26+, Opera 23+, Firefox 39+ */
+    url('../fonts/mulish-v12-latin-600.woff') format('woff');
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* rubik-regular - latin */
+@font-face {
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 400;
+  src: local(''),
+    url('../fonts/rubik-v20-latin-regular.woff2') format('woff2'),
+    /* Chrome 26+, Opera 23+, Firefox 39+ */
+    url('../fonts/rubik-v20-latin-regular.woff') format('woff');
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+body {
+  font-family: 'Rubik', 'Mulish', sans-serif;
+}
+
+.container {
+  width: 1165px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.img {
+  margin-top: 70px;
+  display: flex;
+  gap: 17px;
+}
+
+.img__left {
+  padding: 49px 31px;
+  width: 669px;
+  height: 511px;
+  background: url(../images/img-1.png) center/cover no-repeat;
+}
+
+.img__left h2,.img__right-content h2 {
+  margin-bottom: 10px;
+  font-family: 'Mulish',sans-serif;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 26px;
+  display: flex;
+  align-items: center;
+  color: #555555;
+}
+
+.img__left span,.img__right-content span {
+  margin-bottom: 13px;
+  font-family: 'Mulish',sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 26px;
+  display: flex;
+  align-items: center;
+  color: #7AC751;
+}
+
+.img__left a,.img__right-content a {
+  font-weight: 400;
+  font-family: 'Mulish',sans-serif;
+  font-size: 16px;
+  line-height: 26px;
+  display: flex;
+  align-items: center;
+  color: #757575;
+}
+
+.img__right-top{
+  margin-bottom: 17px;
+  padding: 52px 24px;
+  width: 485px;
+  height: 247px;
+  background: url(../images/img-2.png) center/cover no-repeat;
+}
+
+.img__right-bottom{
+  padding: 52px 24px;
+  width: 485px;
+  height: 247px;
+  background: url(../images/img-3.png) center/cover no-repeat;
+}
